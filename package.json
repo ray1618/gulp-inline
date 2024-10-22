@@ -10,13 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashaffer/gulp-inline.git"
+    "url": "https://github.com/ray1618/gulp-inline"
   },
   "author": "ashaffer",
+  "contributors": ["Raymond Bas"],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashaffer/gulp-inline/issues"
-  },
   "homepage": "https://github.com/ashaffer/gulp-inline",
   "devDependencies": {
     "eslint": "3.x",
@@ -48,5 +46,8 @@
     "event-stream": "^3.3.4",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.3"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
 }
