@@ -1,7 +1,11 @@
-gulp-inline
+@ray1618/gulp-inline
 ===========
 
 ## Information
+
+> Clone of gulp-inline as it's curruntly not maintained anymore, added a nullcheck to fix the folowing error:
+> TypeError: Cannot read properties of null (reading 'toString')
+
 
 [![Build Status](https://travis-ci.org/ashaffer/gulp-inline.svg?branch=master)](https://travis-ci.org/ashaffer/gulp-inline)
 [![codecov](https://codecov.io/gh/ashaffer/gulp-inline/branch/master/graph/badge.svg)](https://codecov.io/gh/ashaffer/gulp-inline)

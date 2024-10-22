@@ -47,7 +47,9 @@ var typeMap = {
   img: {
     tag: 'img',
     template: function (contents, el) {
-      el.attr('src', 'data:image/unknown;base64,' + contents.toString('base64'))
+		if (el !== null){
+			el.attr('src', 'data:image/unknown;base64,' + contents.toString('base64'))
+		}
       return cheerio.html(el)
     },
     filter: function (el) {
